@@ -10,6 +10,7 @@ var srcTempl = template.Must(template.New("main.go").Parse(`// This file is gene
 package main
 
 import (
+	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/unitchecker"
 	"github.com/gostaticanalysis/vetgen/analyzers"
 	{{range .}}
