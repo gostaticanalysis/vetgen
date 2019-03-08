@@ -17,15 +17,15 @@ import (
 	{{- end}}
 )
 
-var myAnayzers = []*analysis.Analyzer {
-	{{range .}}
+var myAnayzers = []*analysis.Analyzer{
+	{{range . -}}
 	{{.Pkg}}.Analyzer,
-	{{- end}}
+	{{end}}
 }
 
 func main() {
 	unitchecker.Main(append(
 		analyzers.Recommend(),
 		myAnayzers...,
-	)
+	))
 }`))
