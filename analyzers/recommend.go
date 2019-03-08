@@ -5,6 +5,7 @@ import (
 
 	"github.com/gostaticanalysis/nilerr"
 	"github.com/gostaticanalysis/nofmt"
+	"github.com/gostaticanalysis/notest"
 	"github.com/gostaticanalysis/readonly"
 	"github.com/gostaticanalysis/wraperrfmt"
 )
@@ -16,5 +17,6 @@ func Recommend() []*analysis.Analyzer {
 		wraperrfmt.Analyzer,
 		readonly.Analyzer,
 		nofmt.Analyzer,
+		notest.Analyzer,
 	)
 }
