@@ -1,0 +1,12 @@
+github.com/gostaticanalysis/comment v1.0.0/go.mod h1:xMicKDx7XRXYdVwY9f9wQpDJVnqWxw9wCauCMKp+IBI=
+github.com/gostaticanalysis/comment v1.1.0 h1:kz+L8VtxI+2xiEQ3Z6lWZvf9YpTomccAdM0dNgOddRM=
+github.com/gostaticanalysis/comment v1.1.0/go.mod h1:xMicKDx7XRXYdVwY9f9wQpDJVnqWxw9wCauCMKp+IBI=
+github.com/gostaticanalysis/nilerr v0.0.0-20190308085927-d5e696fc40f8 h1:qFCTUsp32GZyIm400h4LEpo7vph3y7oS9ljGlxowDP0=
+github.com/gostaticanalysis/nilerr v0.0.0-20190308085927-d5e696fc40f8/go.mod h1:N3ZX2P2BGlfv6skHiWT1MjodER1sg0HBgbjZGg/RqIY=
+github.com/gostaticanalysis/readonly v0.0.0-20190308111141-902245d4df63 h1:gE7M4KlPBrInbxXO0exeMqBwAnbIbZ21lo08R0zf/UM=
+github.com/gostaticanalysis/readonly v0.0.0-20190308111141-902245d4df63/go.mod h1:8wIdDrGx5AVCamqawJqix8Jrhi0bmiewNxFPFvpw59s=
+github.com/gostaticanalysis/wraperrfmt v0.0.0-20190308090456-74aac36802ea h1:wN27hJpvVHdnAiFktPe7g2p33Lr2lBuk6rDaegw1xFo=
+github.com/gostaticanalysis/wraperrfmt v0.0.0-20190308090456-74aac36802ea/go.mod h1:G1K/khOSkz57RESa8GQXMUfkt0oqmgnO/zDZXxG6MoE=
+golang.org/x/net v0.0.0-20190213061140-3a22650c66bd/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
+golang.org/x/tools v0.0.0-20190307163923-6a08e3108db3 h1:2oZsfYnKfYzL4I57uYiRFsUf0bqlLkiuw8nnj3+voUA=
+golang.org/x/tools v0.0.0-20190307163923-6a08e3108db3/go.mod h1:25r3+/G6/xytQM8iWZKq3Hn0kr0rgFKPUNVEL/dr3z4=
