@@ -4,6 +4,7 @@ import (
 	"golang.org/x/tools/go/analysis"
 
 	"github.com/gostaticanalysis/nilerr"
+	"github.com/gostaticanalysis/nofmt"
 	"github.com/gostaticanalysis/readonly"
 	"github.com/gostaticanalysis/wraperrfmt"
 )
@@ -14,5 +15,6 @@ func Recommend() []*analysis.Analyzer {
 		nilerr.Analyzer,
 		wraperrfmt.Analyzer,
 		readonly.Analyzer,
+		nofmt.Analyzer,
 	)
 }

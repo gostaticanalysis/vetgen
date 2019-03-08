@@ -27,5 +27,5 @@ func main() {
 	unitchecker.Main(append(
 		analyzers.Recommend(),
 		myAnayzers...,
-	))
+	)...)
 }`))
