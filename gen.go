@@ -145,9 +145,11 @@ func (g *VetGen) importedPkgs() ([]*PkgInfo, error) {
 
 func (g *VetGen) isGenerated(f *ast.File) bool {
 	for _, decl := range f.Decls {
-		if decl.Tok != token.VAR {
+		decl, ok := decl.(*ast.GenDecl)
+		if !ok || decl.Tok != token.VAR {
 			continue
 		}
+
 		for _, spec := range decl.Specs {
 			valspec, ok := spec.(*ast.ValueSpec)
 			if !ok {
