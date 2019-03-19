@@ -1,5 +1,9 @@
 # vetgen
 
+[![CircleCI](https://circleci.com/gh/gostaticanalysis/vetgen.svg?style=svg)](https://circleci.com/gh/gostaticanalysis/vetgen)
+[![GoDoc](https://godoc.org/github.com/gostaticanalysis/vetgen?status.svg)](https://godoc.org/github.com/gostaticanalysis/vetgen)
+
+
 `vetgen` creates vettool with own analyzers.
 
 ## Insall
