@@ -28,7 +28,7 @@ type VetGen struct {
 }
 
 func (g *VetGen) Run() error {
-	if len(g.Args[0]) == 0 {
+	if len(g.Args) == 0 {
 		return errors.New("subcommand must be specified: init, add")
 	}
 	cmd, args := g.Args[0], g.Args[1:]
