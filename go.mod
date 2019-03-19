@@ -1,4 +1,4 @@
-module github.com/tenntenn/gosa/vetgen
+module github.com/gostaticanalysis/vetgen
 
 go 1.12
 
