@@ -76,6 +76,9 @@ func (g *VetGen) init(args []string) error {
 		return err
 	}
 
+	fmt.Printf("Created directory %s\n", dir)
+	fmt.Printf("Please change the working directory to %s\n", dir)
+
 	return nil
 }
 
