@@ -1,6 +1,8 @@
 github.com/gostaticanalysis/comment v1.0.0/go.mod h1:xMicKDx7XRXYdVwY9f9wQpDJVnqWxw9wCauCMKp+IBI=
 github.com/gostaticanalysis/comment v1.1.0 h1:kz+L8VtxI+2xiEQ3Z6lWZvf9YpTomccAdM0dNgOddRM=
 github.com/gostaticanalysis/comment v1.1.0/go.mod h1:xMicKDx7XRXYdVwY9f9wQpDJVnqWxw9wCauCMKp+IBI=
+github.com/gostaticanalysis/fourcetypeassert v0.0.0-20190322052922-8516a46f04fc h1:6SntpSFe9gvsqfibfDSjgHbmkivxJTa8IZ4wsAiVSeM=
+github.com/gostaticanalysis/fourcetypeassert v0.0.0-20190322052922-8516a46f04fc/go.mod h1:O9nEF+/2u8kwlat3i3Xn/LLJlt3dSSRTHojQfrdNu3k=
 github.com/gostaticanalysis/nilerr v0.0.0-20190308085927-d5e696fc40f8 h1:qFCTUsp32GZyIm400h4LEpo7vph3y7oS9ljGlxowDP0=
 github.com/gostaticanalysis/nilerr v0.0.0-20190308085927-d5e696fc40f8/go.mod h1:N3ZX2P2BGlfv6skHiWT1MjodER1sg0HBgbjZGg/RqIY=
 github.com/gostaticanalysis/nofmt v0.0.0-20190308162339-35b38e0c7b48 h1:BXkvwyv02+0cXo+/qWHrbEjN1ZpdeG2SdnI1r1PR0N0=
@@ -13,8 +15,14 @@ github.com/gostaticanalysis/testutil v0.0.0-20190308165151-352061e1ba8c h1:tm1bj
 github.com/gostaticanalysis/testutil v0.0.0-20190308165151-352061e1ba8c/go.mod h1:6dnfVtdzHaKguYhBO/9DQrWcGfyZocsw7IS/bLgaC/M=
 github.com/gostaticanalysis/wraperrfmt v0.0.0-20190308090456-74aac36802ea h1:wN27hJpvVHdnAiFktPe7g2p33Lr2lBuk6rDaegw1xFo=
 github.com/gostaticanalysis/wraperrfmt v0.0.0-20190308090456-74aac36802ea/go.mod h1:G1K/khOSkz57RESa8GQXMUfkt0oqmgnO/zDZXxG6MoE=
+golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/net v0.0.0-20190213061140-3a22650c66bd/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
+golang.org/x/net v0.0.0-20190311183353-d8887717615a/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
+golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/tools v0.0.0-20190307163923-6a08e3108db3 h1:2oZsfYnKfYzL4I57uYiRFsUf0bqlLkiuw8nnj3+voUA=
 golang.org/x/tools v0.0.0-20190307163923-6a08e3108db3/go.mod h1:25r3+/G6/xytQM8iWZKq3Hn0kr0rgFKPUNVEL/dr3z4=
 golang.org/x/tools v0.0.0-20190308142131-b40df0fb21c3 h1:GPRyd2anWNtiuo1j4VS6+tIW4Qu5bCWKy4sjzUf/3oI=
 golang.org/x/tools v0.0.0-20190308142131-b40df0fb21c3/go.mod h1:25r3+/G6/xytQM8iWZKq3Hn0kr0rgFKPUNVEL/dr3z4=
+golang.org/x/tools v0.0.0-20190321232350-e250d351ecad h1:tYrC3aF7wTeS1noni7wCGu94xeMVu0dxOdFufzx/VM8=
+golang.org/x/tools v0.0.0-20190321232350-e250d351ecad/go.mod h1:LCzVGOaR6xXOjkQ3onu1FJEFr0SW1gC7cKk1uF8kGRs=

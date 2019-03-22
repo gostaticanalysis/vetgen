@@ -3,6 +3,7 @@ package analyzers
 import (
 	"golang.org/x/tools/go/analysis"
 
+	"github.com/gostaticanalysis/fourcetypeassert"
 	"github.com/gostaticanalysis/nilerr"
 	"github.com/gostaticanalysis/nofmt"
 	"github.com/gostaticanalysis/notest"
@@ -18,5 +19,6 @@ func Recommend() []*analysis.Analyzer {
 		readonly.Analyzer,
 		nofmt.Analyzer,
 		notest.Analyzer,
+		fourcetypeassert.Analyzer,
 	)
 }
