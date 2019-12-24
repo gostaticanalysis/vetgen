@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"context"
 	"errors"
 	"fmt"
 	"go/ast"
@@ -14,6 +15,8 @@ import (
 	"path/filepath"
 	"strconv"
 	"strings"
+
+	"github.com/gostaticanalysis/vetgen/analyzers"
 )
 
 type PkgInfo struct {
@@ -29,7 +32,7 @@ type VetGen struct {
 
 func (g *VetGen) Run() error {
 	if len(g.Args) == 0 {
-		return errors.New("subcommand must be specified: init, add")
+		return errors.New("subcommand must be specified: init, add, list")
 	}
 	cmd, args := g.Args[0], g.Args[1:]
 
@@ -38,6 +41,8 @@ func (g *VetGen) Run() error {
 		return g.init(args)
 	case "add":
 		return g.add(args)
+	case "list":
+		return g.list(args)
 	}
 
 	return fmt.Errorf("unsuported command %s", cmd)
@@ -195,6 +200,21 @@ func (g *VetGen) generate(mainFile string, pkgs []*PkgInfo) error {
 
 	if err := ioutil.WriteFile(mainFile, src, 0644); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (g *VetGen) list(args []string) error {
+	var f analyzers.Fetcher
+	ctx := context.Background()
+	as, err := f.List(ctx)
+	if err != nil {
+		return err
+	}
+
+	for _, a := range as {
+		fmt.Printf("%s.%s\n", a.Import, a.Name)
 	}
 
 	return nil
